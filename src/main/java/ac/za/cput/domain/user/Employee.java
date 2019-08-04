@@ -1,6 +1,4 @@
-package ac.za.cput.domain;
-
-import javafx.util.Builder;
+package ac.za.cput.domain.user;
 
 public class Employee {
 
@@ -43,7 +41,17 @@ public class Employee {
             return this;
         }
 
-        //do for all the private variables including firstname lastname
+        public Builder firstName(String firstName)
+        {
+            this.firstName = firstName;
+            return this;
+        }
+
+        public Builder lastName(String lastName)
+        {
+            this.lastName = lastName;
+            return this;
+        }
 
         public Employee build(){
             return new Employee(this);
