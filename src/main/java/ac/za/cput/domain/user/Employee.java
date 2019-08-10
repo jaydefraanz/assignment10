@@ -48,7 +48,7 @@ public class Employee {
                 '}';
     }
 
-    public class Builder{
+    public static class Builder{
         private String employeeNumber, firstName, lastName;
 
         public Builder employeeNumber(String employeeNumber)

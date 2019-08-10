@@ -6,8 +6,8 @@ public class EmployeeGender
 {
     private String employeeNumber, genderId;
 
-    private EmployeeGender(){}
-
+    public EmployeeGender(){}
+    //public constructor in this class
 
     public String getEmployeeNumber(){return employeeNumber;}
 
