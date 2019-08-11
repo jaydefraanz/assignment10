@@ -1,7 +1,5 @@
 package ac.za.cput.domain.user;
 
-import javafx.util.Builder;
-
 public class EmployeeGender
 {
     private String employeeNumber, genderId;

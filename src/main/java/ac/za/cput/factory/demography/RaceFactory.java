@@ -5,10 +5,10 @@ import ac.za.cput.util.Misc;
 
 public class RaceFactory {
 
-    public static Race buildRace(String gender)
+    public static Race buildRace(String race)
     {
         return new Race.Builder().raceId(Misc.generateId())
-                .desc(gender)
+                .desc(race)
                 .build();
     }
 }
