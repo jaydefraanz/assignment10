@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class GenderServiceImpl implements GenderService {
 
-    private GenderServiceImpl service = null;
+    private static GenderServiceImpl service = null;
     private GenderRepository repository;
 
     private GenderServiceImpl()
@@ -17,7 +17,7 @@ public class GenderServiceImpl implements GenderService {
         repository = GenderRepositoryImpl.getRepository();
     }
 
-    public GenderServiceImpl getService()
+    public static GenderServiceImpl getService()
     {
         if(service == null) return new GenderServiceImpl();
         return service;

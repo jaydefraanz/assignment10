@@ -1,4 +1,4 @@
-package ac.za.cput.repositoryTest.userServiceImpl;
+package ac.za.cput.repositoryTest.userRepositoryImpl;
 
 import ac.za.cput.domain.demography.Gender;
 import ac.za.cput.domain.user.Employee;
@@ -30,7 +30,7 @@ public class EmployeeGenderRepositoryImplTest {
 
         EmployeeGender employee1 = repository.read(employee.getGenderId());
 
-        Assert.assertFalse(false);
+        Assert.assertFalse(emp.getEmpName().isEmpty());
     }
 
     @Test
@@ -46,7 +46,7 @@ public class EmployeeGenderRepositoryImplTest {
 
        // EmployeeGender employee1 = repository.read(employee.getGenderId());
 
-        Assert.assertFalse(false);
+        Assert.assertFalse(emp.toString().isEmpty());
     }
 
     @Test
@@ -59,7 +59,7 @@ public class EmployeeGenderRepositoryImplTest {
 
         EmployeeGender employee1 = repository.read(employee.getGenderId());
 
-        Assert.assertFalse(false);
+        Assert.assertFalse(emp.getEmpLastName().isEmpty());
     }
 
     @Test
@@ -72,6 +72,6 @@ public class EmployeeGenderRepositoryImplTest {
 
         EmployeeGender employee1 = repository.read(employee.getGenderId());
 
-        Assert.assertFalse(false);
+        Assert.assertFalse(emp.getEmpName().isEmpty());
     }
 }

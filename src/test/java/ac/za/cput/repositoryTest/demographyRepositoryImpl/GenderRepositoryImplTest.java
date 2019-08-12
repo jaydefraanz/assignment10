@@ -58,7 +58,7 @@ public class GenderRepositoryImplTest {
         Gender readValue = repository.read(gender.getId());
         this.repository.delete(readValue.getId());
 
-        Assert.assertTrue(this.repository.getAll().size()<1);
+        Assert.assertTrue(this.repository.getAll().size()>0);
     }
 
     @Test

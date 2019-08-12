@@ -1,4 +1,4 @@
-package ac.za.cput.repositoryTest.userServiceImpl;
+package ac.za.cput.repositoryTest.userRepositoryImpl;
 
 import ac.za.cput.domain.user.Employee;
 import ac.za.cput.factory.user.EmployeeFactory;
